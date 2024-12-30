@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UNC</string>
+    <string name="button">Button</string>
+    <string name="child1">Child1</string>
+    <string name="todo">TODO</string>
+    <string name="About">this is about us section Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry </string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="hintweightip">Enter your Weight</string>
+    <string name="hintheightft">Enter your Height(in Ft)</string>
+    <string name="hintHeightIn">Enter your Height(in In)</string>
+    <string name="hintcalculate">Calculate</string>
+    <string name="heading">BMI CALCULATOR</string>
+    <string name="txtResult">Result</string>
+</resources>

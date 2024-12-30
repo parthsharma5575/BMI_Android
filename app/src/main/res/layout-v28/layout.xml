@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="11dp"
+    android:padding="10dp"
+    android:id="@+id/llmain"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="40sp"
+        android:textColor="#000"
+
+        />
+
+    <EditText
+        android:id="@+id/edtweightip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintweightip"
+        android:inputType="number"
+
+
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtheightft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintheightft"
+        android:inputType="number"
+
+
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtheightin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintHeightIn"
+        android:inputType="number"
+
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintcalculate"
+
+
+        />
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/txtResult"
+        android:textSize="18sp"
+
+
+        />
+</LinearLayout>
